@@ -1,5 +1,5 @@
 {
-  "name": "replace",
+  "name": "replacer",
   "description": "Command line search and replace utility",
   "license": "MIT",
   "version": "0.3.0",
@@ -21,7 +21,7 @@
     "tape": "~0.2.2"
   },
   "bin": {
-    "replace": "./bin/replace.js",
+    "replacer": "./bin/replacer.js",
     "search": "./bin/search.js"
   },
   "keywords": [
