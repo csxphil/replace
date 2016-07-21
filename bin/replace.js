@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var nomnom = require("nomnom"),
-    replace = require("../replace"),
+    replacer = require("../replacer"),
     sharedOptions = require("./shared-options");
 
 /* Additional options that apply to `replace`, but not `search` */
@@ -51,7 +51,7 @@ for (var opt in addlOptions) {
 }
 
 var options = nomnom.options(opts)
-  .script("replace")
+  .script("replacer")
   .parse();
 
-replace(options);
+replacer(options);
